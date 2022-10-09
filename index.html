@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signup.css">
+    <title>BIG TONY HELICOPTER DEALER</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="helicopter-container">
+            <div class="info">
+                <img src="./img/bigtheli.png" alt="big tony helicopter">
+                <h2>big tony helicopter dealer</h2>
+            </div>
+
+            <div class="credit">
+                <p>Photo by Phil W on Unsplash</p>
+            </div>
+        </div>
+
+        <div class="signup-container">
+
+            <div class="heading">
+                <p class="heading-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                </p>
+                <p class="heading-text">Sign up now to get started.</p>
+
+                <p class="know">
+                    You know what to do.
+                </p>
+            </div>
+
+            <div class="form-container">
+                <form action="" method="get">
+                    
+                    <p>Lets do this!</p>
+
+                    <div class="form-row">
+
+                        <div class="thetitle">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="firstName" minlength="2" maxlength="64" required>
+                        </div>
+    
+                        <div class="thetitle">
+                            <label for="lasttName">LAST NAME</label>
+                            <input type="text" name="lastName" id="lastName" minlength="2" maxlength="64" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="thetitle">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <div class="thetitle">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" name="phoneNumber" id="phone" pattern="[0-9]{10}" title="phone number must be 10 numbers." required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="thetitle">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" class="error" name="password" id="password" pattern="[a-zA-Z]+{8-24}" title="password has must be 8 -13 characters"    required>
+                        </div>
+
+                        <div class="thetitle">
+                            <label for="confirm">CONFIRM PASSWORD</label>
+                            <input type="password" class="error" name="password2" id="confirm required" pattern="[a-zA-Z]+{8-24}" title="password has must be 8 -13 characters" required>
+                        </div>
+                    </div>
+
+                    <div class="submitButton">
+                        <div>
+                            <button class="submit" type="submit">Create Account</button>
+                        </div>
+    
+                        <div class="details">
+                            <p>Already have an account? <a href="#">Log in</a></p>
+                        </div>
+                    </div>
+
+                    
+  
+                </form>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    
+</body>
+</html>
