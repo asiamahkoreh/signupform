@@ -135,4 +135,5 @@ label {
 a {
     color: var(--special-color);
     text-decoration: none;
+    font-weight: bold;
 }
